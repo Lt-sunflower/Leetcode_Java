@@ -1,6 +1,7 @@
-package leetcode.problems;
+package leetcode.problems.grind75;
 
 import leetcode.models.ListNode;
+import leetcode.problems.Problem;
 import leetcode.utils.ListNodeUtils;
 
 import java.util.Arrays;

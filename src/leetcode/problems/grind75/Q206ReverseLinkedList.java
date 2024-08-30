@@ -1,11 +1,12 @@
-package leetcode.problems;
+package leetcode.problems.grind75;
 
 import java.util.Arrays;
 import java.util.List;
 import leetcode.models.ListNode;
+import leetcode.problems.Problem;
 import leetcode.utils.ListNodeUtils;
 
-public class Q206ReverseLinkedList implements Problem{
+public class Q206ReverseLinkedList implements Problem {
 
 		private ListNode head;
 

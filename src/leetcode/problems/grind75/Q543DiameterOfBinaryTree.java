@@ -1,11 +1,12 @@
-package leetcode.problems;
+package leetcode.problems.grind75;
 
 import leetcode.models.TreeNode;
+import leetcode.problems.Problem;
 import leetcode.utils.TreeNodeUtils;
 
 import java.util.Arrays;
 
-public class Q543DiameterOfBinaryTree implements Problem{
+public class Q543DiameterOfBinaryTree implements Problem {
 
     private TreeNode root;
 

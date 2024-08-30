@@ -1,10 +1,11 @@
-package leetcode.problems;
+package leetcode.problems.grind75;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import leetcode.problems.Problem;
 
-public class Q169MajorityElement implements Problem{
+public class Q169MajorityElement implements Problem {
 
 		/**
 		 * Given an array nums of size n, return the majority element.

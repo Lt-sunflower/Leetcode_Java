@@ -1,9 +1,10 @@
-package leetcode.problems;
+package leetcode.problems.easy;
 
 import java.util.HashMap;
 import java.util.Map;
+import leetcode.problems.Problem;
 
-public class Q13RomanToInteger implements Problem{
+public class Q13RomanToInteger implements Problem {
 
 		/**
 		 * Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
@@ -34,6 +35,8 @@ public class Q13RomanToInteger implements Problem{
 				m.put('C', 100);
 				m.put('D', 500);
 				m.put('M', 1000);
+
+
 
 				int ans = 0;
 				int prev = 0;

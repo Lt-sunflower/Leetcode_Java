@@ -1,10 +1,11 @@
-package leetcode.problems;
+package leetcode.problems.grind75;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import leetcode.problems.Problem;
 
-public class Q242ValidAnagram implements Problem{
+public class Q242ValidAnagram implements Problem {
 
     /**
      * Given two strings s and t, return true if t is an anagram of s, and false otherwise.

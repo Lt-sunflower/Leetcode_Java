@@ -1,6 +1,8 @@
-package leetcode.problems;
+package leetcode.problems.grind75;
 
-public class Q125ValidPalindrome implements Problem{
+import leetcode.problems.Problem;
+
+public class Q125ValidPalindrome implements Problem {
 
     /**
      * Given a string s, return true if it is a palindrome, or false otherwise.
@@ -19,7 +21,7 @@ public class Q125ValidPalindrome implements Problem{
     private boolean solve() {
 
         // remove special char
-        s = s.replaceAll("[^a-zA-Z0-9]", "");
+        s = s.replaceAll("{^a-zA-Z0-9}", "");
 
         // ignore case
         s = s.toLowerCase();

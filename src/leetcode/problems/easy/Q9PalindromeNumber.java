@@ -1,6 +1,8 @@
-package leetcode.problems;
+package leetcode.problems.easy;
 
-public class Q9PalindromeNumber implements Problem{
+import leetcode.problems.Problem;
+
+public class Q9PalindromeNumber implements Problem {
 
 		/**
 		 * Given an integer x, return true if x is a palindrome, and false otherwise.

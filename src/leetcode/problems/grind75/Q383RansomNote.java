@@ -1,9 +1,10 @@
-package leetcode.problems;
+package leetcode.problems.grind75;
 
 import java.util.HashMap;
 import java.util.Map;
+import leetcode.problems.Problem;
 
-public class Q383RansomNote implements Problem{
+public class Q383RansomNote implements Problem {
 
 		/**
 		 * Given two strings ransomNote and magazine,

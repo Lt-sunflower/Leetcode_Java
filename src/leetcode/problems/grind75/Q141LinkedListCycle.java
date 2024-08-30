@@ -1,8 +1,9 @@
-package leetcode.problems;
+package leetcode.problems.grind75;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import leetcode.models.ListNode;
+import leetcode.problems.Problem;
 import leetcode.utils.ListNodeUtils;
 
 public class Q141LinkedListCycle implements Problem {

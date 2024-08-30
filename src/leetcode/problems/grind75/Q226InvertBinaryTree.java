@@ -1,13 +1,14 @@
-package leetcode.problems;
+package leetcode.problems.grind75;
 
 import leetcode.models.TreeNode;
+import leetcode.problems.Problem;
 import leetcode.utils.TreeNodeUtils;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Q226InvertBinaryTree implements Problem{
+public class Q226InvertBinaryTree implements Problem {
 
     /**
      * Given the root of a binary tree, invert the tree, and return its root.

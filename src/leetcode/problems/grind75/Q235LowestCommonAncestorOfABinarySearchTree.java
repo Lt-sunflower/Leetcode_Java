@@ -1,12 +1,13 @@
-package leetcode.problems;
+package leetcode.problems.grind75;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import leetcode.models.TreeNode;
+import leetcode.problems.Problem;
 import leetcode.utils.TreeNodeUtils;
 
-public class Q235LowestCommonAncestorOfABinarySearchTree implements Problem{
+public class Q235LowestCommonAncestorOfABinarySearchTree implements Problem {
 
 		/**
 		 * 	Given a binary search tree (BST),

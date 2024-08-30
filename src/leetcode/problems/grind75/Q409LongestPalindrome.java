@@ -1,9 +1,10 @@
-package leetcode.problems;
+package leetcode.problems.grind75;
 
 import java.util.HashMap;
 import java.util.Map;
+import leetcode.problems.Problem;
 
-public class Q409LongestPalindrome implements Problem{
+public class Q409LongestPalindrome implements Problem {
 
 		/**
 		 * Given a string s which consists of lowercase or uppercase letters,

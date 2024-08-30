@@ -1,9 +1,10 @@
-package leetcode.problems;
+package leetcode.problems.grind75;
 
 import java.util.Arrays;
+import leetcode.problems.Problem;
 import leetcode.utils.ArrayUtils;
 
-public class Q733FloodFill implements Problem{
+public class Q733FloodFill implements Problem {
 
 		/**
 		 * To perform a flood fill,

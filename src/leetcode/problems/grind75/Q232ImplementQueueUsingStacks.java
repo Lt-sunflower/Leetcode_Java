@@ -1,4 +1,4 @@
-package leetcode.problems;
+package leetcode.problems.grind75;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,8 +6,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 import java.util.Stack;
+import leetcode.problems.Problem;
 
-public class Q232ImplementQueueUsingStacks implements Problem{
+public class Q232ImplementQueueUsingStacks implements Problem {
 
 		/**
 		 * Implement a first in first out (FIFO) queue using only two stacks.

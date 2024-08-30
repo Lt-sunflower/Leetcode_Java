@@ -1,6 +1,7 @@
-package leetcode.problems;
+package leetcode.problems.grind75;
 
 import java.util.Arrays;
+import leetcode.problems.Problem;
 
 public class Q121BestTimeToBuyAndSellStock implements Problem {
 
