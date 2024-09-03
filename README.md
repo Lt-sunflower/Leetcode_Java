@@ -24,10 +24,13 @@
 [543] [DiameterOfBinaryTree](src/leetcode/problems/grind75/Q543DiameterOfBinaryTree.java)<br/>
 [704] [BinarySearch](src/leetcode/problems/grind75/Q704BinarySearch.java)<br/>
 [733] [FloodFill](src/leetcode/problems/grind75/Q733FloodFill.java)<br/>
-[876] [MiddleOfLinkedList](src/leetcode/problems/grind75/Q876MiddleOfLinkedList.java)<br/>### 2. Grind75 Medium <br/>
+[876] [MiddleOfLinkedList](src/leetcode/problems/grind75/Q876MiddleOfLinkedList.java)<br/>
 ### 3. Grind75 Medium <br/>
 [53] [MaximumArray](src/leetcode/problems/grind75/Q53MaximumArray.java)<br/>
 [57] [InsertInterval](src/leetcode/problems/grind75/Q57InsertInterval.java)<br/>
+[542] [01Matrix](src/leetcode/problems/grind75/Q542_01Matrix.java)<br/>
+[973] [KClosestPointsToOrigin](src/leetcode/problems/grind75/Q973KClosestPointsToOrigin.java)<br/>
+
 ### 3. Grind75 Hard <br/>
 ### 4. Extra easy practice <br/>
 [9] [PalindromeNumber](src/leetcode/problems/grind75/Q9PalindromeNumber.java)<br/>
