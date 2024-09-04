@@ -31,7 +31,7 @@
 [542] [01Matrix](src/leetcode/problems/grind75/Q542_01Matrix.java)<br/>
 [973] [KClosestPointsToOrigin](src/leetcode/problems/grind75/Q973KClosestPointsToOrigin.java)<br/>
 [3] [LongestSubstringWithoutRepeatingCharacters](src/leetcode/problems/grind75/Q3LongestSubstringWithoutRepeatingCharacters.java)<br/>
-
+[15] [3Sum](src/leetcode/problems/grind75/Q15_3Sum.java)<br/>
 ### 3. Grind75 Hard <br/>
 ### 4. Extra easy practice <br/>
 [9] [PalindromeNumber](src/leetcode/problems/grind75/Q9PalindromeNumber.java)<br/>
