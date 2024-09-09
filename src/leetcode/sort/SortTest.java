@@ -175,4 +175,60 @@ public class SortTest {
         assertArrayEquals(expected, sort.mergeSort(array));
     }
 
+    @Test
+    public void testQuickSortEmptyArray() {
+        int[] array = {};
+        int[] expected = {};
+        assertArrayEquals(expected, sort.quickSort(array));
+    }
+
+    @Test
+    public void testQuickSortSingleElement() {
+        int[] array = {1};
+        int[] expected = {1};
+        assertArrayEquals(expected, sort.quickSort(array));
+    }
+
+    @Test
+    public void testQuickSortAlreadySorted() {
+        int[] array = {1, 2, 3, 4, 5};
+        int[] expected = {1, 2, 3, 4, 5};
+        assertArrayEquals(expected, sort.quickSort(array));
+    }
+
+    @Test
+    public void testQuickSortReverseSorted() {
+        int[] array = {5, 4, 3, 2, 1};
+        int[] expected = {1, 2, 3, 4, 5};
+        assertArrayEquals(expected, sort.quickSort(array));
+    }
+
+    @Test
+    public void testQuickSortWithDuplicates() {
+        int[] array = {3, 1, 2, 3, 2};
+        int[] expected = {1, 2, 2, 3, 3};
+        assertArrayEquals(expected, sort.quickSort(array));
+    }
+
+    @Test
+    public void testQuickSortWithNegativeNumbers() {
+        int[] array = {-1, -3, 2, 0, 5, -2};
+        int[] expected = {-3, -2, -1, 0, 2, 5};
+        assertArrayEquals(expected, sort.quickSort(array));
+    }
+
+    @Test
+    public void testQuickSortLargeArray() {
+        int[] array = {10, 5, 3, 8, 7, 6, 4, 2, 9, 1};
+        int[] expected = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        assertArrayEquals(expected, sort.quickSort(array));
+    }
+
+    @Test
+    public void testQuickSortArrayWithAllSameElements() {
+        int[] array = {7, 7, 7, 7, 7};
+        int[] expected = {7, 7, 7, 7, 7};
+        assertArrayEquals(expected, sort.quickSort(array));
+    }
+
 }

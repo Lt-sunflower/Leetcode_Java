@@ -119,9 +119,40 @@ public class Sort {
     }
 
     public int[] quickSort(int[] array){
-        //
+        // decide on pivot, sort it to correct pos, repeat for left & right
+
+        quickSort(array, 0, array.length-1);
 
         return array;
+    }
+
+    private void quickSort(int[] array, int low, int high){
+
+        if (low >= high) return;
+
+        int pivot = array[high];
+        int ptr1 = low;
+        int ptr2 = low-1;
+
+        while (ptr1<high){
+            if (pivot >= array[ptr1]) {
+                ptr2++;
+                swap(array, ptr1, ptr2);
+            }
+            ptr1++;
+        }
+
+        swap(array, ptr2+1, high);
+
+        quickSort(array, low, ptr2);
+        quickSort(array, ptr2+2, high);
+
+    }
+
+    private void swap (int[] array, int a, int b){
+        int temp = array[a];
+        array[a] = array[b];
+        array[b] = temp;
     }
 
     public int[] heapSort(int[] array){
